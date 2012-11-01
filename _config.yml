@@ -17,6 +17,16 @@ pygments:    true
 markdown:    maruku
 permalink:   none
 
+prose:
+  metadata:
+    "_posts/blog": |
+      title:    "Title of your article"
+      abstract: "Abstract"
+      tag
+    "_posts/projects": |
+      name: "Project Name"
+      img:  "Project Thumbnail"
+
 #maruku:
 #  use_tex:    false
 #  use_divs:   false

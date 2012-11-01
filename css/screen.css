@@ -34,17 +34,12 @@ p {
   margin: 1em 0;
 }
 
-a {
-  color: #00a;
-}
-
-a:hover {
-  color: black;
-}
-
-a:visited {
-  color: #a0a;
-}
+/* rot FF0000 braun 993300 tomato FF6633 tan CCCC99 darksalmon FF9966 magenta FF00FF orange FF9900 green 009900*/
+ 
+ a:link{color:#CC0099; text-decoration: none;}
+ a:visited{color:#CC99CC; text-decoration: none;}
+ a:hover{color:#FF00FF; text-decoration: underline;}
+ a:active{color:#FF00FF; text-decoration: none;}
 
 table {
   font-size: inherit;
@@ -57,6 +52,12 @@ table {
 /*
 /*****************************************************************************/
 #main_logo {width:100px;}
+
+hr.trenner {
+	height:1px;
+	color:#FF9900;
+	
+}
 
 /*****************************************************************************/
 /*

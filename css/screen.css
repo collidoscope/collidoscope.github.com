@@ -45,6 +45,8 @@ table {
   font-size: inherit;
   font: 100%;
 }
+#outer {border 1px solid pink}
+#inner {border 1px solid silver}
 
 /*****************************************************************************/
 /*

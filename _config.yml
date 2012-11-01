@@ -27,7 +27,12 @@ prose:
       categories: [cat1, cat2]
       title:    "Title of your article"
       abstract: "Abstract"
+      description: "SEO friendly description"
+      author: "Your Name Here"
       tags:		[tag1, tag2]
+      comments: true
+      sharing: true
+      published: false
     "_posts/projects": |
       name: "Project Name"
       img:  "Project Thumbnail"

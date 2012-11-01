@@ -20,9 +20,11 @@ permalink:   none
 prose:
   metadata:
     "_posts/blog": |
+      layout:	post
+      categories: [cat1, cat2]
       title:    "Title of your article"
       abstract: "Abstract"
-      tag
+      tags:		[tag1, tag2]
     "_posts/projects": |
       name: "Project Name"
       img:  "Project Thumbnail"

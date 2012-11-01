@@ -1,6 +1,5 @@
 include: .htaccess
 
-#safe:        false
 #auto:        false
 #server:      false
 #server_port: 4000
@@ -12,8 +11,12 @@ destination: ./_site
 plugins:     ./_plugins
 
 future:      true
-lsi:         true
+#required for gitHub Pages
+safe:       true
+lsi:         false
 pygments:    true
+
+
 markdown:    maruku
 permalink:   none
 

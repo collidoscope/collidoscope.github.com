@@ -40,7 +40,7 @@ prose:
     "_posts/projects": |
       name: "Project Name"
       img:  "Project Thumbnail"
-    "/": |
+    ".": |
       layout:	default
       title:    "Title of the page"
       show:     true

@@ -9,4 +9,10 @@ navigation:
   weight: 100
   show: true
 ---
+
+---
+layout : default
+title  : Project 1
+weight : 2
+---
 # Hello World!

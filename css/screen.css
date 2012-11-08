@@ -6,21 +6,11 @@
 
 /* Global Reset */
 
-* {
-  margin: 0;
-  padding: 0;
-}
+* {margin: 0;padding: 0;clear:both;float:none;}
 
-html, body {
-  height: 100%;
-font-size:14px;
-}
+html, body {height: 100%;font-size:14px;}
 
-body {
-  background-color: white;
-  font: 0.9em helvetica, arial, clean, sans-serif;
-  *font-size: small;
-padding: 1% 20% 1% 20%;
+body { background-color: white;font: 0.9em helvetica, arial, clean, sans-serif;*font-size: small;padding: 1% 20% 1% 20%;
 }
 
 h1 {font-size: 2em;}
@@ -30,12 +20,12 @@ h4 {font-size: 1.3em;}
 
 /* rot FF0000 braun 993300 tomato FF6633 tan CCCC99 darksalmon FF9966 magenta FF00FF orange FF9900 green 009900*/
  
- a:link{color:#CC0099; text-decoration: none;}
- a:visited{color:#CC99CC; text-decoration: none;}
- a:hover{color:#FF00FF; text-decoration: underline;}
- a:active{color:#FF00FF; text-decoration: none;}
+a:link{color:#CC0099; text-decoration: none;}
+a:visited{color:#CC99CC; text-decoration: none;}
+a:hover{color:#FF00FF; text-decoration: underline;}
+a:active{color:#FF00FF; text-decoration: none;}
 
-#outer {border: 1px solid #FF00FF;text-align:center;}
+#outer {border: 1px solid #FF00FF;border-radius:2px;}
 
 /*****************************************************************************/
 /*

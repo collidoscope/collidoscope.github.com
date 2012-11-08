@@ -25,7 +25,7 @@ a:visited{color:#CC99CC; text-decoration: none;}
 a:hover{color:#FF00FF; text-decoration: underline;}
 a:active{color:#FF00FF; text-decoration: none;}
 
-#outer {border: 1px solid #FF00FF;border-radius:4px;padding:9px;}
+#outer {border: 1px solid #FF00FF;border-radius:5px;padding:9px;}
 
 /*****************************************************************************/
 /*

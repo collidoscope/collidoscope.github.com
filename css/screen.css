@@ -36,8 +36,14 @@ a:active{color:#FF00FF; text-decoration: none;}
 
 hr.trenner {
 	height:1px;
-	color:#FF9900;
-	
+	color:#FF9900;	
+}
+
+/* Navigation */
+@font-face
+{
+font-family: naviFont;
+src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
 }
 
 /*****************************************************************************/

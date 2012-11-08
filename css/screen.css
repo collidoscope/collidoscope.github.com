@@ -45,7 +45,7 @@ hr.trenner {
 font-family: naviFont;
 src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
 }
-a.nav_a {font-family:naviFont;font-size:1em}
+a.nav_a {font-family: 'Cedarville Cursive', cursive;font-size:1em}
 
 /*****************************************************************************/
 /*

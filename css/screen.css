@@ -46,10 +46,10 @@ hr.trenner {
 font-family: naviFont;
 src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
 }
-#nav_ul{list-style-type:none;float:none:clear:both;}
+#nav_ul{list-style-type:none;}
 .nav_li, .nav_li_active{display:inline;border:1px solid blue;}
 a.nav_a {font-family: 'Cedarville Cursive', cursive;font-size:1.5em;font-weight:bold;}
-#main_nav{float:none:clear:both;border:1px solid orange;}
+#main_nav{border:1px solid orange;display:inline;}
 
 /*****************************************************************************/
 /*

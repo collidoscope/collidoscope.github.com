@@ -11,16 +11,12 @@ layout: nil
  <id>http://collidoscope.de/</id>
  <author>
    <name>Carsten Klee</name>
- </author>
-
- {% for post in site.posts %}
+ </author>{% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://collidoscope.de{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://collidoscope.de{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
- 
+ </entry>{% endfor %}
 </feed>

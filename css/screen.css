@@ -46,7 +46,7 @@ font-family: naviFont;
 src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
 }
 #nav_ul{list-style-type:none;}
-.nav_li, nav_li_active{float:left;}
+.nav_li, .nav_li_active{float:right;}
 a.nav_a {font-family: 'Cedarville Cursive', cursive;font-size:1.5em;font-weight:bold;}
 
 /*****************************************************************************/

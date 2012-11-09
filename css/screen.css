@@ -32,7 +32,8 @@ a:active{color:#FF00FF; text-decoration: none;}
 /* Default
 /*
 /*****************************************************************************/
-#main_logo {border:1px solid green;display:inline;}
+#logo_div{border:1px solid green;display:inline;}
+#main_logo {width:10%;}
 
 hr.trenner {
 	height:1px;

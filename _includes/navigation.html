@@ -1,5 +1,7 @@
+<nav id="main_nav">
 <ul id="nav_ul">{% for weight in (1..10) %}{% for p in site.pages %}{% if p.weight == weight %}
   <li {% if p.url == page.url %}class="nav_li_active"{% else %}class="nav_li"{% endif %}>
     <a class="nav_a" href="{{ p.url }}">{{ p.title }}</a>
   </li>{% endif %}{% endfor %}{% endfor %}
 </ul>
+</nav>

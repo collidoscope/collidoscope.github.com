@@ -49,12 +49,12 @@ src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
 }
 @font-face
 {
-font-family: cinzel;
-src: url('http://fonts.googleapis.com/css?family=Cinzel+Decorative');
+font-family: roma;
+src: url('http://fonts.googleapis.com/css?family=Romanesco');
 }
 #nav_ul{list-style-type:none;display:inherit;}
 .nav_li, .nav_li_active{display:inline;border:1px solid blue;}
-a.nav_a {font-family: 'Cinzel Decorative', cursive;font-size:1.5em;}
+a.nav_a {font-family: 'Romanesco', cursive;font-size:1.5em;}
 #main_nav{border:1px solid orange;display:inline;}
 
 /*****************************************************************************/

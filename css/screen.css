@@ -32,7 +32,7 @@ a:active{color:#FF00FF; text-decoration: none;}
 /* Default
 /*
 /*****************************************************************************/
-#main_logo {width:100px;}
+#main_logo {border:1px solid green;display:inline;}
 
 hr.trenner {
 	height:1px;
@@ -45,7 +45,7 @@ hr.trenner {
 font-family: naviFont;
 src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
 }
-#nav_ul{list-style-type:none;float:none:clear:both;border:1px solid green;}
+#nav_ul{list-style-type:none;float:none:clear:both;}
 .nav_li, .nav_li_active{display:inline;border:1px solid blue;}
 a.nav_a {font-family: 'Cedarville Cursive', cursive;font-size:1.5em;font-weight:bold;}
 #main_nav{float:none:clear:both;border:1px solid orange;}

@@ -43,12 +43,18 @@ hr.trenner {
 /* Navigation */
 @font-face
 {
-font-family: naviFont;
+font-family: cedarville;
 src: url('http://fonts.googleapis.com/css?family=Cedarville+Cursive');
+/*'Cedarville Cursive', cursive;*/
+}
+@font-face
+{
+font-family: cinzel;
+src: url('http://fonts.googleapis.com/css?family=Cinzel+Decorative');
 }
 #nav_ul{list-style-type:none;display:inherit;}
 .nav_li, .nav_li_active{display:inline;border:1px solid blue;}
-a.nav_a {font-family: 'Cedarville Cursive', cursive;font-size:1.5em;}
+a.nav_a {font-family: 'Cinzel Decorative', cursive;font-size:1.5em;}
 #main_nav{border:1px solid orange;display:inline;}
 
 /*****************************************************************************/

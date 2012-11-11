@@ -35,13 +35,10 @@ a:active{color:#FF00FF; text-decoration: none;}
 #logo_div{border:1px solid green;display:inline;}
 #main_logo {width:20%;}
 
-hr.trenner {
-	height:1px;
-	color:#FF9900;	
-}
+hr.trenner {height:1px;color:#FF9900;}
 
 /* Navigation */
-#nav_ul{list-style-type:none;display:inherit;}
+#nav_ul{list-style-type:none;display:inherit;font-family: 'Yanone Kaffeesatz', sans-serif;}
 .nav_li, .nav_li_active{display:inline;border:1px solid blue;}
 a.nav_a {font-size:1.5em;}
 #main_nav{border:1px solid orange;display:inline;}

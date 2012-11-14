@@ -33,7 +33,7 @@ hr.trenner {height:1px;color:#FF9900;}
 #nav_ul{list-style-type:none;display:inherit;}
 .nav_li, .nav_li_active{display:inline;border:1px solid blue;}
 a.nav_a {font-size:1.5em;}
-#main_nav{border:1px solid orange;display:inline;}
+#main_nav{border:1px solid orange;display:inline;font-family: 'Lobster Two', cursive;}
 #logo_div{border:1px solid green;display:inline;}
 #main_logo {width:20%;}
 

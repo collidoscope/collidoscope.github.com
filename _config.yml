@@ -38,14 +38,15 @@ prose:
       sharing: true
       published: false
     "_posts/projects": |
+      layout: default
       name: "Project Name"
-      img:  "Project Thumbnail"
+      img: "Project Thumbnail"
     ".": |
-      layout:	default
-      title:    "Title of the page"
-      show:     true
+      layout: default
+      title: "Title of the page"
+      show: true
       description: "SEO friendly description"
-      author:   "Carsten Klee"
+      author: "Carsten Klee"
       weight:   5
 
 #maruku:

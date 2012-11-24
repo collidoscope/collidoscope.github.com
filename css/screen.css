@@ -29,14 +29,21 @@ a:active{color:#FF00FF; text-decoration: none;}
 
 hr.trenner {height:1px;color:#FF9900;}
 
+#header {border-bottom: 1px solid orange;padding-bottom:9px;margin-bottom:9px;}
+
+
+#logo_div{display:inline;}
+#main_logo {width:20%;}
+
+#pagename {display:inline;font-family: 'Lobster Two';}
+#pageteaser{font-size: 0.6em;}
+
 /* Navigation */
 #nav_ul{list-style-type:none;display:inherit;}
 .nav_li, .nav_li_active{display:inline;border:1px 0px 1px 1px solid orange;border-radius:6px;padding:3px;margin-right:9px;}
 a.nav_a {font-size:1.5em;}
-#main_nav{display:inline;font-family: 'Lobster Two';}
+#main_nav{font-family: 'Lobster Two';}
 
-#logo_div{display:inline;}
-#main_logo {width:20%;}
 
 footer {border-top: 1px solid orange;padding-top:9px;margin-top:9px;}
 

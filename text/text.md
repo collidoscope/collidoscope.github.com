@@ -1,7 +1,7 @@
-﻿---
+---
 layout: default
 title: Blog
-weight: 2
+weight: 5
 show: true
 ---
 <h1>Mein Blog Space</h1>

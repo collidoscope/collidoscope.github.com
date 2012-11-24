@@ -35,7 +35,7 @@ hr.trenner {height:1px;color:#FF9900;}
 #logo_div{display:inline;}
 #main_logo {width:20%;}
 
-#pagename {display:inline;font-family: 'Lobster Two';}
+#pagename {font-size: 2.3em;display:inline;font-family: 'Lobster Two';}
 #pageteaser{font-size: 0.6em;}
 
 /* Navigation */

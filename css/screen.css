@@ -18,14 +18,14 @@ h2 {font-size: 1.5em;letter-spacing:0.1em;}
 h3 {font-size: 1.3em;letter-spacing:0.1em;}
 h4 {font-size: 1.1em;letter-spacing:0.1em;}
 
-/* rot FF0000 braun 993300 tomato FF6633 tan CCCC99 darksalmon FF9966 magenta FF00FF orange FF9900 green 009900* light-grey #F2F2F2/
+/* rot FF0000 braun 993300 tomato FF6633 tan CCCC99 darksalmon FF9966 magenta FF00FF orange FF9900 green 009900* light-grey #F2F2F2 */
  
 a:link{color:#CC0099; text-decoration: none;}
 a:visited{color:#CC99CC; text-decoration: none;}
 a:hover{color:#FF00FF; text-decoration: underline;}
 a:active{color:#FF00FF; text-decoration: none;}
 
-#outer {border: 1px solid #FF00FF;border-radius:6px;padding:9px;box-shadow: 10px 10px 5px #888888;}
+#outer {border: 0px solid #FF00FF;border-radius:6px;padding:9px;box-shadow: 10px 10px 5px #888888;}
 
 hr.trenner {height:1px;color:#FF9900;}
 

@@ -52,8 +52,8 @@ footer {border-top: 1px solid orange;padding-top:9px;margin-top:9px;clear:both;}
 /* Home
 /*
 /*****************************************************************************/
-.contact {padding:6px;border:1px solid green;}
-#me {float:right;width:180px;margin:left:20px;}
+.contact {float:right;padding:6px;border:1px solid green;}
+#me {width:180px;margin:left:20px;}
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;

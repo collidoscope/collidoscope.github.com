@@ -52,7 +52,7 @@ footer {border-top: 1px solid orange;padding-top:9px;margin-top:9px;}
 /* Home
 /*
 /*****************************************************************************/
-
+#me {float:left;width:180px;}
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;

@@ -18,7 +18,7 @@ h2 {font-size: 1.5em;letter-spacing:0.1em;}
 h3 {font-size: 1.3em;letter-spacing:0.1em;}
 h4 {font-size: 1.1em;letter-spacing:0.1em;}
 
-/* rot FF0000 braun 993300 tomato FF6633 tan CCCC99 darksalmon FF9966 magenta FF00FF orange FF9900 green 009900* light-grey #F2F2F2 */
+/* rot FF0000 braun 993300 tomato FF6633 tan CCCC99 visited #CC99CC darksalmon FF9966 magenta FF00FF orange FF9900 green 009900* light-grey #F2F2F2 */
  
 a:link{color:#CC0099; text-decoration: none;}
 a:visited{color:#CC99CC; text-decoration: none;}
@@ -35,7 +35,7 @@ hr.trenner {height:1px;color:#FF9900;}
 #logo_div{display:inline;}
 #main_logo {width:20%;}
 
-#pagename {font-size: 2.3em;font-family: 'Lobster Two';margin-left:20px;color:#FF6633;vertical-align:30%;}
+#pagename {font-size: 2.3em;font-family: 'Lobster Two';margin-left:20px;color:#CC99CC;vertical-align:30%;}
 #pageteaser{font-size: 0.9em;}
 
 /* Navigation */

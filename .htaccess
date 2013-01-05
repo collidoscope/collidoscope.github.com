@@ -1,0 +1,4 @@
+Options +FollowSymLinks +SymLinksIfOwnerMatch 
+RewriteEngine On
+
+RewriteRule ^index.html$ http://collidoscope.de [R=301,L]

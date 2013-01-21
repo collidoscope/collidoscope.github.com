@@ -1,5 +1,5 @@
 {% include header.html %}
-<body class="post{{ page.id | replace:"/","-" }}">
+<body class="post{{ page.id | replace:'/','-' }}">
   <div id="outer">
 {% include logo.html %}
 {% include navigation.html %}
@@ -17,4 +17,4 @@
 </div>
 {% include disqus.html %}
 {% include footer.html %}
-{% include tail.htm
+{% include tail.htm %}

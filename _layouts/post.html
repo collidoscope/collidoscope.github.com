@@ -1,6 +1,8 @@
----
-layout: default
----
+{% include header.html %}
+<body class="post{{ page.id | replace:"/","-" }}">
+  <div id="outer">
+{% include logo.html %}
+{% include navigation.html %}
 <div id="post">
 {{ content }}
 </div>
@@ -14,3 +16,5 @@ layout: default
   </ul>
 </div>
 {% include disqus.html %}
+{% include footer.html %}
+{% include tail.htm

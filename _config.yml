@@ -26,12 +26,8 @@ prose:
       abstract: "Abstract"
       description: "SEO friendly description"
       author: "Carsten Klee"
-      categories:
-      - cat1
-      - cat2
-      tags:
-      - tag1
-      - tag2
+      categories: "List of Categories"
+      tags: "List of Tags"
       comments: true
       sharing: true
       published: false

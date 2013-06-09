@@ -19,4 +19,7 @@ After I took some responsibility for a [KIM](http://www.kim-forum.org/ "Kompeten
 
 The [Enumeration and Chronology of Periodicals Ontology (ECPO)](http://purl.org/ontology/ecpo "ECPO") is now available under http://purl.org/ontology/ecpo. The status of the [current version](http://cklee.github.io/ecpo/ecpo-bdc6aaf.html) of the ontology is still a draft and open for [feedback](https://github.com/cklee/ecpo/issues).
 
+ECPO should take its place between some other micro-ontologies like [DAIA](http://gbv.github.io/daiaspec/), [DSO](http://gbv.github.io/dso/) and [SSSO](http://purl.org/ontology/ssso) like Jakob described it in his article ["On the way to a library ontology"](http://jakoblog.de/2013/04/11/on-the-way-to-a-library-ontology/ "Jakoblog").
+
 ### About ECPO
+

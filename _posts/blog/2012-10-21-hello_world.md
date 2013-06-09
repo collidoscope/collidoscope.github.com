@@ -1,7 +1,16 @@
 ---
+published: 
+  - true
+  - "false"
 layout: post
-title: Hello World!
-published: true
+title: "Hello World!"
+abstract: Abstract
+description: SEO friendly description
+author: Carsten Klee
+categories: List of Categories
+tags: List of Tags
+comments: "true"
+sharing: "true"
 ---
 
 # Hello World!

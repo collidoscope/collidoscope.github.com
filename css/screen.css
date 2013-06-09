@@ -115,6 +115,9 @@ ul.posts {
   #post pre.terminal code {
     background-color: #333;
   }
+#post p {
+	margin-top:9px;  
+}
 
 #related {
   margin-top: 2em;

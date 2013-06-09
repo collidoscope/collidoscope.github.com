@@ -1,7 +1,7 @@
 ---
 published: 
-  - false
-  - "false"
+  - true
+  - "true"
 layout: post
 title: Title of your article
 abstract: Abstract
@@ -15,3 +15,4 @@ sharing: "true"
 
 ## Introducing ECPO - Enenumeration and Chronology of Periodicals Ontology
 
+After I took some responsibility for a [KIM](http://www.kim-forum.org/ "Kompetenzzentrum Interoperable Metadaten") working group ["Bestandsdaten"](https://wiki.dnb.de/display/DINIAGKIM/Bestandsdaten+Gruppe "KIM group Bestandsdaten")  

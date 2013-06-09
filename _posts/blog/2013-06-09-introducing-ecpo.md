@@ -17,3 +17,6 @@ sharing: "true"
 
 After I took some responsibility for a [KIM](http://www.kim-forum.org/ "Kompetenzzentrum Interoperable Metadaten") working group ["Bestandsdaten"](https://wiki.dnb.de/display/DINIAGKIM/Bestandsdaten+Gruppe "KIM group Bestandsdaten") I pushed myself to publish the ontology I was working (more thinking than working) on some time.
 
+The [Enumeration and Chronology of Periodicals Ontology (ECPO)](http://purl.org/ontology/ecpo "ECPO") is now available under http://purl.org/ontology/ecpo. The status of the [current version](http://cklee.github.io/ecpo/ecpo-bdc6aaf.html) of the ontology is still a draft and open for [feedback](https://github.com/cklee/ecpo/issues).
+
+### About ECPO

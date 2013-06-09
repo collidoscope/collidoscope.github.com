@@ -3,12 +3,11 @@ published:
   - true
   - "true"
 layout: post
-title: Title of your article
+title: Introducing ECPO
 abstract: Abstract
 description: SEO friendly description
 author: Carsten Klee
-categories: List of Categories
-tags: List of Tags
+tags: ontology; owl; holdings; library; semweb
 comments: "true"
 sharing: "true"
 ---

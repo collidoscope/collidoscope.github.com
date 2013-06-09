@@ -8,7 +8,7 @@ show: true
 
 <h1>Mein Blog Space</h1>
 <h2>Posts</h2>
-<ul class="posts">{% for post in site.posts %}{% if post.published == true %}
+<ul class="posts">{% for post in site.posts %}{% if post.published != false %}
 <li>
   <span>
     {{ post.date | date_to_string }}

@@ -13,6 +13,7 @@ comments: "true"
 sharing: "true"
 ---
 
-## Introducing ECPO - Enenumeration and Chronology of Periodicals Ontology
+## Introducing ECPO - Enumeration and Chronology of Periodicals Ontology
 
-After I took some responsibility for a [KIM](http://www.kim-forum.org/ "Kompetenzzentrum Interoperable Metadaten") working group ["Bestandsdaten"](https://wiki.dnb.de/display/DINIAGKIM/Bestandsdaten+Gruppe "KIM group Bestandsdaten")  
+After I took some responsibility for a [KIM](http://www.kim-forum.org/ "Kompetenzzentrum Interoperable Metadaten") working group ["Bestandsdaten"](https://wiki.dnb.de/display/DINIAGKIM/Bestandsdaten+Gruppe "KIM group Bestandsdaten") I pushed myself to publish the ontology I was working (more thinking than working) on some time.
+

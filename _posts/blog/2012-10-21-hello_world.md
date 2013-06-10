@@ -1,7 +1,5 @@
 ---
-published: 
-  - true
-  - "false"
+published: false
 layout: post
 title: "Hello World!"
 abstract: Abstract

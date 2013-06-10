@@ -10,7 +10,7 @@
 
 html, body {height: 100%;font-size:14px;}
 
-body { background-color: white;font: 1.9em 'Open Sans', sans-serif;*font-size: small;padding: 1% 20% 1% 20%;
+body { background-color: white;font: 1.9em 'Open Sans', sans-serif;*font-size: small;padding: 1% 20% 1% 20%;color:#696969
 }
 /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
 h1 {font-size: 1.7em;letter-spacing:0.1em;}
@@ -52,7 +52,7 @@ footer {border-top: 1px solid orange;padding-top:9px;clear:both;padding-bottom:1
 /* Home
 /*
 /*****************************************************************************/
-.contact {border:1px solid #FF00FF;border-radius:3px;padding:6px;background-color:#F2F2F2;}
+.contact {border:1px solid #FF00FF;border-radius:5px;padding:6px;background-color:#F2F2F2;}
 #me {width:180px;margin:left:20px;}
 ul.posts {
   list-style-type: none;

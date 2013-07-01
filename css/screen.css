@@ -96,10 +96,11 @@ ul.posts {
   #post code {
     border: 1px solid #ddd;
     background-color: #eef;
-    font-size: 85%;
+    font-size: 0.8em;
     padding: 0.2em;
-    white-space: pre-wrap;
+    white-space: pre;
     display:block;
+    overflow:auto;
   }
 
     #post pre code {

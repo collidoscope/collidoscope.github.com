@@ -53,7 +53,7 @@ footer {border-top: 1px solid orange;padding-top:9px;clear:both;padding-bottom:1
 /*
 /*****************************************************************************/
 .contact {border:1px solid #FF00FF;border-radius:5px;padding:6px;background-color:#F2F2F2;}
-#me {width:180px;margin:left:20px;}
+.me {width:180px;margin:left:20px;}
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;

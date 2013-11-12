@@ -1,0 +1,83 @@
+---
+published: 
+  - "true"
+layout: post
+title: easyM2R - easily convert MARC to RDF
+abstract: easyM2R is a php-based attempt to easily convert MARC data to RDF
+description: easyM2R is a php-based attempt to easily convert MARC data to RDF
+author: Carsten Klee
+categories: lld
+tags: "rdf, marc, jsonld"
+comments: "true"
+sharing: "true"
+---
+
+# easyM2R - easily convert MARC to RDF
+
+Along with the development of the [Holding Ontology](https://github.com/dini-ag-kim/holding-ontology), I was looking for a tool to easily convert MARC21 data to RDF. I looked into Benjamin Rokseth' marc2rdf https://github.com/digibib/marc2rdf which is a very ambitious project, saying it is a coverter and harvester. But unfortunately it has a lot of dependencies and installation requirements. So I searched for a simpler tool but wasn't lucky.
+
+Then I decided to write my own converter with the pre-condition: it must be a tool very easy to use.
+
+I hope I have fullfilled this condition with easyM2R - easily convert MARC to RDF https://github.com/cKlee/easyM2R.git
+
+## How it works
+
+easyM2R is mainly based on three projects:
+
+* [File_MARC](https://github.com/pear/File_MARC) by Dan Scott, Copyright (c) 1991, 1999 Free Software Foundation, Inc.
+* [JSON-LD processor for PHP](https://github.com/lanthaler/JsonLD) Copyright (c) by Markus Lanthaler
+* [EasyRdf](https://github.com/njh/easyrdf) Copyright (c) by Nicholas J Humfrey
+
+easyM2R uses Markus Lanthalers JSON-LD processor to read the configuration into a RDF graph, then using FILE_MARC to read the MARC data and passing it to easyRDF for output in multiple serializations.
+
+Because JSON-LD is a lightweight Linked Data format, easy for humans to read and write, I choosed this format for the configuration part. It has the big advantage that you configure easyM2R directly in a RDF format, seeing how your data will look like.
+
+Within the configurations JSON-LD document there is a special namespace, prefixed with *marc2rdf*. Under this namespace you can define MARC fields and subfields in a simple form called *MARC spec*. A MARC spec has the form field_subfield and points to the piece of data you like to be expressed through RDF.
+
+MARC is (sometimes) a monster, which makes it not that easy to get the right data. For that reason easyM2R uses different callback functions to analyze the MARC records and returning the data in a desired way. Within the configurations JSON-LD document these callback functions can be intialized under the easyM2R namespace, like *marc2rdf:callback\_with_indicator2()*. If there is a problem not solved by the default callback functions, you can also easily write your own using the FILE_MARC library, which is well documented under http://pear.php.net/package/File_MARC
+
+## Using easyM2R
+
+easyM2R can be used via the command line or within a PHP script. Both are documented under https://github.com/cKlee/easyM2R/blob/master/README.md
+
+easyM2R uses FILE_MARC to read MARC data. FILE_MARC allows MARC data as raw or as a string, from a file or a stream.
+
+``` {.ditaa}
+    +--------------+
+    | MARC data    +----+
+    | in a file    |    |
+    +--------------+    |   +--------------+
+                        +-->| MARCFILE2RDF +-----+
+    +--------------+    |   +--------------+     |
+    | MARCXML data +----+                        |
+    | in a file    |                             |
+    +--------------+                             |   +-------------+
+                                                 +-->| data as RDF |
+    +--------------+                             |   +-------------+
+    | MARC data    +----+                        |
+    | as a string  |    |                        |
+    +--------------+    |   +----------------+   |
+                        +-->| MARCSTRING2RDF +---+
+    +--------------+    |   +----------------+
+    | MARCXML data +----+
+    | as a string  |
+    +--------------+
+```
+
+For the output these RDF serializations/formats are available (via easyRDF and JsonLD):
+
+* jsonld
+* json
+* php
+* ntriples
+* turtle
+* rdfxml
+* dot
+* n3
+* png
+* gif
+* svg
+
+## Todo
+
+easyM2R is still be tested. There is no stabil version until november 2013. A problem is still the conversion of really big MARC files. Having enough system memory this might not be a problem.

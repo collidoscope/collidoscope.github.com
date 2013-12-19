@@ -14,9 +14,9 @@ sharing: "true"
 
 *MARC spec as string* is a specification for a MARC 21 field specification (short MARC spec) encoded as string. A MARC spec defines the reference to a data set derived from a MARC 21 record. A MARC spec normally consits of the field tag, a character position or range or subfield tags and indicators. Since there are a variety of mapping tools using MARC specifications in different encodings and forms, I thought it is time to standardize the form of a MARC spec encoded as string.
 
-Therefor I've written a proposal for a MARC 21 spec as string specification. You can find it at http://cklee.github.io/marc-spec/marc-spec.html
+Therefor I've written a proposal for a MARC 21 spec as string specification. You can find it at <a href="http://cklee.github.io/marc-spec/marc-spec.html">http://cklee.github.io/marc-spec/marc-spec.html</a>.
 
-Comments are welcome at https://github.com/cKlee/marc-spec/issues
+Comments are welcome at <a href="https://github.com/cKlee/marc-spec/issues">https://github.com/cKlee/marc-spec/issues</a>
 
 ## What is a MARC spec as string good for?
 

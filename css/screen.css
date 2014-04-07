@@ -13,10 +13,10 @@ html, body {height: 100%;font-size:14px;}
 body { background-color: white;font: 1.9em 'Open Sans', sans-serif;*font-size: small;padding: 1% 20% 1% 20%;color:#696969
 }
 /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
-h1 {font-size: 1.7em;letter-spacing:0.1em;}
-h2 {font-size: 1.5em;letter-spacing:0.1em;margin-top:19px;} 
-h3 {font-size: 1.3em;letter-spacing:0.1em;}
-h4 {font-size: 1.1em;letter-spacing:0.1em;}
+h1 {font-size: 1.7em;font-family: Bitter;font-weight: bold;}
+h2 {font-size: 1.5em;font-family: Bitter;font-weight: bold;margin-top:19px;} 
+h3 {font-size: 1.3emfont-family: Bitter;font-weight: bold;}
+h4 {font-size: 1.1em;font-family: Bitter;font-weight: bold;}
 
 /* rot FF0000 braun 993300 tomato FF6633 tan CCCC99 link_old #CC0099 visited_old #CC99CC darksalmon FF9966 magenta FF00FF orange FF9900 green 009900* light-grey #F2F2F2 */
  
@@ -35,14 +35,14 @@ hr.trenner {height:1px;color:#FF9900;}
 #logo_div{display:inline;}
 #main_logo {width:20%;}
 
-#pagename {font-size: 2.3em;font-family: 'Lobster Two';margin-left:20px;color:#FF00FF;vertical-align:30%;}
+#pagename {font-size: 2.3em;font-family: 'Bitter'; font-weight:bold;margin-left:20px;color:#FF00FF;vertical-align:30%;}
 #pageteaser{font-size: 0.9em;}
 
 /* Navigation */
 #nav_ul{list-style-type:none;display:inherit;}
 .nav_li, .nav_li_active{display:inline;border:1px 0px 1px 1px solid orange;border-radius:6px;padding:3px;margin-right:9px;}
 a.nav_a {font-size:1.5em;}
-#main_nav{font-family: 'Lobster Two';}
+#main_nav{font-family: 'Bitter';}
 
 
 footer {border-top: 1px solid orange;padding-top:9px;clear:both;padding-bottom:100px;}

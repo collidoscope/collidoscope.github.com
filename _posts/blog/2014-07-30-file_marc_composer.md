@@ -17,7 +17,7 @@ Seems like [File_MARC](https://github.com/pear/File_MARC) is not yet available o
 
 This is how a composer.json file could look like
 
-```.json
+```
 {
     "repositories": [
         {
@@ -33,4 +33,4 @@ This is how a composer.json file could look like
 }
 ```
 
-Ten run composer install|update with ```--with-dependencies```
+Ten run composer install|update with <code>--with-dependencies</code>

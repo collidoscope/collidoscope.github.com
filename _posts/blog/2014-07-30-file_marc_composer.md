@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Composer.json for File_MARC
 abstract: contents of a composer.json for file_marc

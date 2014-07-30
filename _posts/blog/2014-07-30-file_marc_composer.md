@@ -33,4 +33,6 @@ This is how a composer.json file could look like
 }
 ```
 
-Ten run composer install|update with <code>--with-dependencies</code>
+Ten run composer install|update with
+
+<code>--with-dependencies</code>

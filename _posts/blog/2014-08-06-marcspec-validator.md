@@ -5,7 +5,7 @@ title: MARCspec validator
 abstract: validate your MARCspec online
 description: project for MARCspec validation
 author: Carsten Klee
-categories: marc, php, json
+categories: marc
 tags: php, marcspec, validation, json
 comments: true
 sharing: true

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: MARCspec validator
 abstract: validate your MARCspec online
@@ -8,7 +8,7 @@ author: Carsten Klee
 categories: marc, php, json
 tags: php, marcspec, validation, json
 comments: true
-sharing: false
+sharing: true
 ---
 
 # MARCspec validator
@@ -17,6 +17,6 @@ sharing: false
 
 You can now validate your MARCspec online at [http://marcspec.collidoscope.de/](http://marcspec.collidoscope.de/).
 
+![MARCspec validator screenshot](https://github.com/collidoscope/collidoscope.github.com/blob/master/images/marcspec_validator_screenshot.jpg)
 
-
-Report bugs as a github issue at [https://github.com/cKlee/php-marc-spec/issues](https://github.com/cKlee/php-marc-spec/issues).
+Report bugs as github issues at [https://github.com/cKlee/php-marc-spec/issues](https://github.com/cKlee/php-marc-spec/issues).

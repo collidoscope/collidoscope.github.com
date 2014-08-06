@@ -17,6 +17,6 @@ sharing: true
 
 You can now validate your MARCspec online at [http://marcspec.collidoscope.de/](http://marcspec.collidoscope.de/).
 
-![MARCspec validator screenshot](https://github.com/collidoscope/collidoscope.github.com/blob/master/images/marcspec_validator_screenshot.jpg)
+<img src="https://github.com/collidoscope/collidoscope.github.com/blob/master/images/marcspec_validator_screenshot.jpg"/>
 
 Report bugs as github issues at [https://github.com/cKlee/php-marc-spec/issues](https://github.com/cKlee/php-marc-spec/issues).

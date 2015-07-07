@@ -29,11 +29,11 @@ Such an URI may be not dereferenceable (no data for lookup). E.g. https://w3id.o
 
 Current ISILs that are supported for dereferencing are:
 
-- US-* (e.g. https://w3id.org/isil/US-NNM)
+- US-* (e.g. [https://w3id.org/isil/US-NNM](https://w3id.org/isil/US-NNM))
 
-- DE-* (e.g. https://w3id.org/isil/DE-1a)
+- DE-* (e.g. [https://w3id.org/isil/DE-1a](https://w3id.org/isil/DE-1a))
 
-- IT-* (e.g. https://w3id.org/isil/IT-BO0001)
+- IT-* (e.g. [https://w3id.org/isil/IT-BO0001](https://w3id.org/isil/IT-BO0001))
 
-- ZDB-* (e.g. https://w3id.org/isil/ZDB-1-TDA)
+- ZDB-* (e.g. [https://w3id.org/isil/ZDB-1-TDA](https://w3id.org/isil/ZDB-1-TDA))
 

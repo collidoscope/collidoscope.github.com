@@ -28,8 +28,12 @@ One can now reference an organization identified by an ISIL through
 Such an URI may be not dereferenceable (no data for lookup). E.g. https://w3id.org/isil/CH-000015-0 will not return any organization data but may be used as an identifier for the "Schweizerisches Literaturarchiv, Bern".
 
 Current ISILs that are supported for dereferencing are:
+
 - US-* (e.g. https://w3id.org/isil/US-NNM)
+
 - DE-* (e.g. https://w3id.org/isil/DE-1a)
+
 - IT-* (e.g. https://w3id.org/isil/IT-BO0001)
+
 - ZDB-* (e.g. https://w3id.org/isil/ZDB-1-TDA)
 

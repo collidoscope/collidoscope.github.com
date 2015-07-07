@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: W3IDs for ISIL
 abstract: persistent and secure identifier for ISIL
@@ -8,7 +8,7 @@ author: Carsten Klee
 categories: isil, identifier, library
 tags: isil, w3id, identifier
 comments: true
-sharing: false
+sharing: true
 ---
 
 #W3IDs for ISIL
